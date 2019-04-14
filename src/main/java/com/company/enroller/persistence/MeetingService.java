@@ -22,5 +22,7 @@ public class MeetingService {
 		Query query = connector.getSession().createQuery(hql);
 		return query.list();
 	}
+	
+	
 
 }
